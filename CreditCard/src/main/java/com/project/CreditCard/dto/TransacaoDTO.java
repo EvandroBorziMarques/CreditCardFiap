@@ -13,4 +13,6 @@ public class TransacaoDTO {
 
     private String cpf;
 
+    private Double valor;
+
 }

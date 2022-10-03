@@ -11,6 +11,7 @@ import org.springframework.web.bind.annotation.*;
 @AllArgsConstructor
 public class AlunoController {
     AlunosRepository repository;
+    AlunosRepository alunosRepository;
 
     @GetMapping("/aluno")
     public List<Alunos> getAlunosList(){
